@@ -1,2 +1,1 @@
-C - My own printf function
-vorg i see you!!
+C - My own mini printf function
