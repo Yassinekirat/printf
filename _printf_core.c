@@ -33,7 +33,7 @@ void _printf_core(const char *format, va_list args, int *printed_chars)
 		else if (format[i] == 'd' || format[i] == 'i')
 		{
 			d = va_arg(args, int);
-			_printf_number(d);
+			_printf_numbers(d);
 		}
 		else if (format[i] == '%')
 		{
