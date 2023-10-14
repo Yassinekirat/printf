@@ -3,7 +3,7 @@
  * _printf_core - the core of my printf function
  * @format : format to be tested
  * @args : arguments to be tested
- * @printed_chars : characters to be printed
+ * @printed_chars : count printed characters
  */
 void _printf_core(const char *format, va_list args, int *printed_chars)
 {
