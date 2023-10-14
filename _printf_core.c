@@ -3,7 +3,7 @@
  * _printf_core - the core of my printf function
  * @format : format to be tested
  * @args : arguments to be tested
- * @printed_chars : count printed characters
+ * @printed_chars : counts printed characters
  */
 void _printf_core(const char *format, va_list args, int *printed_chars)
 {
@@ -33,7 +33,7 @@ void _printf_core(const char *format, va_list args, int *printed_chars)
 		else if (format[i] == 'd' || format[i] == 'i')
 		{
 			d = va_arg(args, int);
-			_printf_numbers(d);
+			_printf_numbers(d, printed_chars);
 		}
 		else if (format[i] == '%')
 		{

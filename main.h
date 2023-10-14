@@ -10,8 +10,8 @@
 int _strlen(char *s);
 int _putchar(char c);
 int _printf(const char *format, ...);
-void rev_number(int num);
-void _printf_numbers(int num);
+void rev_number(int num, int *printed_chars);
+void _printf_numbers(int num, int *printed_chars);
 void _printf_string(const char *str, int *printed_chars);
 void _printf_char(char c, int *printed_chars);
 void _printf_core(const char *format, va_list args, int *printed_chars);
