@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _printf_numbers - my own mini
+ * _printf_numbers - prints numbers
  * @num: number to be tested
 */
 void _printf_numbers(int num)
